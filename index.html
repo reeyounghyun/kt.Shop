@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/common.css" />
     <title>kt.com</title>
   </head>
   <body>
@@ -17,25 +20,31 @@
           </figure>
         </div>
         <!-- //상단 띠베너 -->
-        <div class="5g_Tab_Btn">
+        <div class="g5_Tab_Btn">
           <ul>
-            <li><a href="/hotpick">핫픽</a></li>
-            <li><a href="/hotdeal">핫딜</a></li>
-            <li><a href="/winners">당첨자 발표</a></li>
+            <li class="active">
+              <a href="/hotpick"><span>5시 핫픽</span></a>
+            </li>
+            <li>
+              <a href="/hotdeal"><sapn>핫딜</sapn></a>
+            </li>
+            <li>
+              <a href="/winners"><span>당첨자 발표</span></a>
+            </li>
           </ul>
         </div>
         <!-- //핫픽 상단 탭버튼 -->
-        <div class="5g_hotpick_img">
+        <div class="g5_hotpick_img">
           <div class="item">
-            <figure>
+            <figure class="imgWhopper">
               <img
                 src="./img/pc/@pc_thumbnail.png"
                 alt="아이폰13프로 128GB 시에라블루"
               />
             </figure>
             <span class="h5_hotpuick_Preview">예고편보기</span>
-            <span class="5g_hotpick_model"
-              ><button type="button">자세히보기</button></span
+            <span class="g5_hotpick_model"
+              ><button type="button">자세히 보기+</button></span
             >
           </div>
           <div class="hotpick-cont">
@@ -47,22 +56,34 @@
                     <strong>응모시간</strong>
                     <span>12/20(금)17시~ 12/25(수)17시</span>
                   </p>
+                  <div class="times_item">
+                    <p>
+                      <strong>당첨발표</strong>
+                      <span>12/26(목)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="times_item">
                   <p>
                     <strong>응모대상</strong>
                     <span>통신사 무관, 누구나 응모가능!</span>
                   </p>
                 </div>
               </div>
-              <div class="5g_hotpick_price">
-                <strong class="red evnet-discount">99%</strong>
-                <span class="event_price">500</span>
+              <div class="g5_hotpick_price">
+                <div class="">
+                  <span class="hidden">할인율</span>
+                  <strong class="red evnet-discount">99%</strong>
+                  <span class="hidden">핫딜가</span>
+                  <p class="event_price"><span class="">500</span>원</p>
+                </div>
                 <span class="price">1,350,000원</span>
               </div>
             </div>
           </div>
         </div>
         <!-- //상품이미지, 가격 영역 -->
-        <div class="5g_event-banner">
+        <div class="g5_event-banner">
           <figure>
             <img
               src="./img/pc/@핫딜 md 추천!.png"
@@ -84,7 +105,7 @@
           <a href="최대21만원혜택! kt닷컴 쿠폰팩!"
             >최대21만원혜택! kt닷컴 쿠폰팩!</a
           >
-          <div class="5g_add_btn">
+          <div class="g5_add_btn">
             <a href="./addBtn">
               <span>더보기</span>
             </a>
