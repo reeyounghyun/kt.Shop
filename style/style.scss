@@ -9,11 +9,11 @@
       max-width: 1080px;
       width: 100%;
       margin: 0 auto;
-      .top_banner_wrap {
+      .top-banner-wrap {
         display: block;
         margin-bottom: 30px;
       }
-      .g5_Tab_Btn {
+      .g5-Tab-Btn {
         display: block;
         margin-bottom: 30px;
         ul {
@@ -51,7 +51,7 @@
           }
         }
       }
-      .g5_hotpick_img {
+      .g5-hotpick-img {
         display: flex;
         justify-content: space-between;
         margin-bottom: 25px;
@@ -68,7 +68,7 @@
               background-size: contain;
             }
           }
-          .h5_hotpuick_Preview {
+          .h5-hotpuick-Preview {
             max-width: 117px;
             width: 100px;
             height: 34px;
@@ -87,7 +87,7 @@
               }
             }
           }
-          .g5_hotpick_model {
+          .g5-hotpick-model {
             overflow: hidden;
             border-radius: 5px;
             position: absolute;
@@ -111,7 +111,7 @@
         .hotpick-cont {
           margin-left: 40px;
           flex: 1;
-          .hotpick_cont_inner {
+          .hotpick-cont-inner {
             h3 {
               display: block;
               margin-bottom: 95px;
@@ -121,11 +121,11 @@
               font-weight: bold;
               color: #222;
             }
-            .hotpick_times {
+            .hotpick-times {
               > div {
                 margin-bottom: 10px;
               }
-              .times_item {
+              .times-item {
                 display: flex;
                 align-items: center;
                 p {
@@ -159,7 +159,7 @@
                 }
               }
             }
-            .g5_hotpick_price {
+            .g5-hotpick-price {
               padding-top: 17px;
               margin-top: 25px;
               position: relative;
@@ -178,7 +178,7 @@
                 color: #f44b57;
                 font-family: "Roboto";
               }
-              .event_price {
+              .event-price {
                 display: flex;
                 align-items: baseline;
                 color: #000000;
@@ -213,7 +213,7 @@
                 font-family: "Roboto";
                 color: #00859c;
               }
-              .hotpick_price {
+              .hotpick-price {
                 display: flex;
                 align-items: baseline;
                 margin-left: 10px;
@@ -239,7 +239,7 @@
                 margin-top: 0;
               }
             }
-            .g5_event_btn {
+            .g5-event-btn {
               margin-top: 21px;
               a {
                 display: block;
@@ -256,6 +256,80 @@
                 font-size: 24px;
                 letter-spacing: -1.2px;
               }
+            }
+          }
+        }
+      }
+      // 핫픽md추천 시작
+      .g5_event-banner {
+        position: relative;
+        .event-banner-figure {
+          position: relative;
+        }
+        a.h-special {
+          overflow: hidden;
+          display: block;
+          position: absolute;
+          bottom: 49px;
+          width: 190px;
+          height: 263px;
+          color: transparent;
+          &.h-special_link-1 {
+            left: 31px;
+          }
+          &.h-special_link-2 {
+            left: 238px;
+          }
+          &.h-special_link-3 {
+            left: 446px;
+          }
+          &.h-special_link-4 {
+            left: 653px;
+          }
+          &.h-special_link-5 {
+            left: 860px;
+          }
+        }
+        .g5_add_btn {
+          overflow: hidden;
+          display: block;
+          position: absolute;
+          top: 46px;
+          width: 67px;
+          height: 20px;
+          color: transparent;
+          right: 31px;
+          a {
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      // 인스타그램 배너
+      .instagram-area {
+        margin: 20px 0;
+      }
+
+      .g5-h-banner {
+        position: relative;
+        .h-video {
+          position: absolute;
+          top: 429px;
+          left: 50%;
+          width: 100%;
+          margin-top: 21px;
+          padding: 60px 164px 25px;
+          border-radius: 10px;
+          box-sizing: border-box;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          .h-video_box {
+            height: 425px;
+            iframe {
+              width: 100%;
+              height: 100%;
             }
           }
         }
